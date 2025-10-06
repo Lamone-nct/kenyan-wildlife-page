@@ -1,0 +1,50 @@
+/* style_classic.css */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f0e6c5; /* Safari Sand */
+    color: #4a4a2a; /* Earthy Brown */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8b4513; /* Saddle Brown */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #d2b48c;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #d2b48c;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+    color: #006400; /* Dark Green */
+}
+
+.highlight {
+    font-weight: bold;
+    color: #cc5500; /* Burnt Orange */
+}
+
+button {
+    background-color: #556b2f; /* Olive Drab */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6b8e23;
+}
